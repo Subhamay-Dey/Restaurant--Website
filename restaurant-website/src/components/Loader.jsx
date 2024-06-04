@@ -1,21 +1,22 @@
 import React, { useEffect } from 'react';
 import styled from "styled-components";
+
 import {gsap, CSSPlugin, Expo} from "gsap";
 gsap.registerPlugin(CSSPlugin);
 
 export default function Loader() {
 
-    const [counter, setCounter] = useState(0);
+    const [counter, setCounter] = React.useState(0);
 
-    useEffect(() => {
-      const count = setInterval(() => {
-        setCounter(
-            (counter) => (
-                counter < 100 ? Counter + 1 : (clearInterval(count), setCounter(100))
-            )
-        )
-      }, 25)
-    })
+    React.useEffect(() => {
+        const count = setInterval(() => {
+          setCounter((counter) =>
+            counter < 100
+              ? counter + 1
+              : (clearInterval(count), setCounter(100))
+          );
+        }, 25);
+      }, []);
     
 
   return <AppContainer>
