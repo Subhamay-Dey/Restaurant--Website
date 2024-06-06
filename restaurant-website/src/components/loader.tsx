@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
 import { gsap, CSSPlugin, Expo } from "gsap";
 gsap.registerPlugin(CSSPlugin);
 
-function App() {
-  const [counter, setCounter] = useState(0);
+function Loader() {
+  const [counter, setCounter] = useState<number>(0);
 
   useEffect(() => {
     const count = setInterval(() => {
-      setCounter((counter) =>
-        counter < 100
-          ? counter + 1
-          : (clearInterval(count), setCounter(100), reveal())
+      setCounter((counter) : any =>
+        counter < 100 ? counter + 1 : (clearInterval(count), setCounter(100), reveal())
       );
     }, 25);
   }, []);
@@ -68,7 +68,7 @@ function App() {
   );
 }
 
-export default App;
+export default Loader;
 
 const AppContainer = styled.div`
   width: 100vw;
@@ -136,5 +136,5 @@ const Content = styled.div`
     display: none;
     font-weight: 500;
     margin: 0;
-  }
+}
 `;
