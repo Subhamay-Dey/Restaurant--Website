@@ -3,11 +3,12 @@ import styles from './page.module.scss'
 import { useState } from 'react';
 import Project from '../components/project';
 import Modal from '../components/modal';
+import img1 from "../../public/images/coffee-website-img1.jpg"
 
 const projects = [
   {
     title: "C2 Montreal",
-    src: "c2montreal.png",
+    src: {img1},
     color: "#000000"
   },
   {
