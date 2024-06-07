@@ -65,7 +65,7 @@ function Loader() {
       </Loading>
 
       <Content className="content">
-        {/* <Header/> */}
+        
       </Content>
     </AppContainer>
   );
