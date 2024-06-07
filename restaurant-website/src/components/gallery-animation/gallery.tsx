@@ -1,27 +1,27 @@
 'use client';
 import styles from './gallery.module.scss'
 import { useState } from 'react';
-import Project from '../components/project';
-import Modal from '../components/modal';
+import Project from './project';
+import Modal from './modal';
 
 const projects = [
   {
-    title: "C2 Montreal",
+    title: "Coffee 1",
     src: "coffee-website-img1.jpg",
     color: "#000000"
   },
   {
-    title: "Office Studio",
+    title: "Coffee 2",
     src: "coffee-website-img2.jpg",
     color: "#8C8C8C"
   },
   {
-    title: "Locomotive",
+    title: "Coffee 3",
     src: "",
     color: "#EFE8D3"
   },
   {
-    title: "Silencio",
+    title: "Coffee 4",
     src: "",
     color: "#706D63"
   }
