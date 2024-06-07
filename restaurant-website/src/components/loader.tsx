@@ -4,6 +4,9 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
 import { gsap, CSSPlugin, Expo } from "gsap";
+import Link from "next/link";
+import Header from "../components/header/page";
+
 gsap.registerPlugin(CSSPlugin);
 
 function Loader() {
@@ -62,7 +65,7 @@ function Loader() {
       </Loading>
 
       <Content className="content">
-        <p className="title-lines">Fuck You</p>
+        {/* <Header/> */}
       </Content>
     </AppContainer>
   );
