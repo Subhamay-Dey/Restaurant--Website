@@ -2,7 +2,7 @@
 import styles from './style.module.scss';
 import Link from 'next/link';
 import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { opacity } from './script';
 import Nav from './nav/page';
 
@@ -29,7 +29,11 @@ export default function Menu() {
                     </div>
                 </motion.div>
             </div>
-            {isActive && <Nav/>}
+            <AnimatePresence mode="wait">
+
+                {isActive && <Nav/>}
+
+            </AnimatePresence>
         </div>
     )
 }
