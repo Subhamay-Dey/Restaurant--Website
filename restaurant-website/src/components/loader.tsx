@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 import { gsap, CSSPlugin, Expo } from "gsap";
 import Link from "next/link";
-import Header from "../components/header/page";
+import Header from "./navbar/page";
 
 gsap.registerPlugin(CSSPlugin);
 

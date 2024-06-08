@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import Header from './header/page';
 import StickyCursor from './stickycursor/page';
 
-export default function magneticMenu() {
+export default function MagneticMenu() {
   
   const stickyElement = useRef(null);
 
