@@ -2,13 +2,13 @@
 import Home from '@/components/gallery-animation/gallery'
 import React from 'react';
 import magneticMenu from '@/components/stickyCursor-animation/sticky';
+import Menu from "../components/header/page"
 
 function page() {
   return (
-    <>
-      <Home/>
-      <magneticMenu/>
-    </>
+    <div>
+      <Menu/>
+    </div>
   )
 }
 

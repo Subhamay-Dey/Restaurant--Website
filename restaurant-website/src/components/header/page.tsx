@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { opacity } from './script';
 
-export default function index() {
+export default function Menu() {
 
     const [isActive, setIsActive] = useState(false);
 
