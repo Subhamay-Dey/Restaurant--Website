@@ -1,5 +1,5 @@
 'use client';
-import styles from './style.module.css';
+import styles from './style.module.scss';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { height } from '../script';
@@ -35,7 +35,7 @@ const links = [
   }
 ]
 
-export default function Index() {
+export default function Nav() {
 
   const [selectedLink, setSelectedLink] = useState({isActive: false, index: 0});
 

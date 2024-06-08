@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import styles from './style.module.css';
+import styles from './style.module.scss';
 import { opacity } from '../../script';
 
 export default function Index({src, selectedLink}:any) {

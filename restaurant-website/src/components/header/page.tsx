@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { opacity } from './script';
+import Nav from './nav/page';
 
 export default function Menu() {
 
@@ -28,6 +29,7 @@ export default function Menu() {
                     </div>
                 </motion.div>
             </div>
+            {isActive && <Nav/>}
         </div>
     )
 }
