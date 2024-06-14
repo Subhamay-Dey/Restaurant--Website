@@ -4,6 +4,7 @@ import React from 'react';
 import Menu from "../components/navbar/page"
 import MagneticMenu from '@/components/stickyCursor-animation/sticky';
 import Footer from '@/components/footer/Intro';
+import ParallaxScroll from '@/components/parallax-scroll/page';
 
 function page() {
   return (
@@ -11,7 +12,8 @@ function page() {
       <Menu/>
       <Home/>
       <MagneticMenu/>
-      <Footer/>
+      <ParallaxScroll/>
+      {/* <Footer/> */}
     </div>
   )
 }
