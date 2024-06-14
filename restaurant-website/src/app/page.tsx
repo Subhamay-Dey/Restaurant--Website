@@ -10,12 +10,12 @@ import Seacat from '@/components/seacat/page';
 function page() {
   return (
     <div>
-      {/* <Menu/>
-      <Home/> */}
+      <Menu/>
+      <Home/>
       {/* <MagneticMenu/> */}
-      {/* <ParallaxScroll/>
-      <Footer/> */}
-      <Seacat/>
+      <ParallaxScroll/>
+      <Footer/>
+      {/* <Seacat/> */}
     </div>
   )
 }
