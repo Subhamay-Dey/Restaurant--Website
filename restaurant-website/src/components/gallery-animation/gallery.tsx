@@ -17,12 +17,12 @@ const projects = [
   },
   {
     title: "Coffee 3",
-    src: "",
+    src: "coffee-website-img3.jpg",
     color: "#EFE8D3"
   },
   {
     title: "Coffee 4",
-    src: "",
+    src: "coffee-website-img4.jpg",
     color: "#706D63"
   }
 ]
