@@ -65,7 +65,7 @@ function Loader() {
       </Loading>
 
       <Content className="content">
-        
+        hi
       </Content>
     </AppContainer>
   );
@@ -121,7 +121,7 @@ const Content = styled.div`
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #121212;
+  background-color: #000;
   padding: auto;
 
   z-index: 2;
