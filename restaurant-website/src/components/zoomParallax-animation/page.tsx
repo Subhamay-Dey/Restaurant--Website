@@ -4,7 +4,10 @@ import Main from './main/index';
 
 function ZoomParallax() {
   return (
-    <Main/>
+    <main className={styles.main}>
+      <Main/>
+    </main>
+    
   )
 }
 
