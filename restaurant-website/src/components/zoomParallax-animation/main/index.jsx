@@ -56,11 +56,11 @@ const {scrollYProgress} = useScroll({
       <div className={styles.sticky}>
         {
           pictures.map(({src, scale}, index) => {
-            return <div key={index} className={styles.el}>
-            <motion.div style={{scale}} className={styles.imageContainer}>
+            return <motion.div style={{scale}} key={index} className={styles.el}>
+            <div className={styles.imageContainer}>
               <Image src={src} fill alt="image" placeholder='blur'/>
-            </motion.div>
-          </div>
+            </div>
+          </motion.div>
           })
         }
         
