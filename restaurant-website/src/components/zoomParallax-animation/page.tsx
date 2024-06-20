@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Main from './main/index';
 
 function ZoomParallax() {
   return (
-    <div>page</div>
+    <Main/>
   )
 }
 

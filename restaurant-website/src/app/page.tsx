@@ -7,16 +7,19 @@ import Footer from '@/components/footer/Intro';
 import ParallaxScroll from '@/components/parallax-scroll/page';
 import Seacat from '@/components/seacat/page';
 import Loader from '@/components/loader';
+import ZoomParallax from '@/components/zoomParallax-animation/page';
 
 function page() {
   return (
     <div className=''>
-      <Menu/>
+      {/* <Menu/>
       <Loader/>
       <Home/>
-      {/* <MagneticMenu/> */}
+      <MagneticMenu/>
       <ParallaxScroll/>
-      <Footer/>
+      <Footer/> */}
+
+      <ZoomParallax/>
     </div>
   )
 }
