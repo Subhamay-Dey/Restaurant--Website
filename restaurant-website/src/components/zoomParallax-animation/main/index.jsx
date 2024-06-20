@@ -32,22 +32,22 @@ const {scrollYProgress} = useScroll({
       src: picture1, scale: scale4
     },
     {
-      src: picture2, scale: scale4
+      src: picture2, scale: scale5
     },
     {
-      src: picture3, scale: scale4
+      src: picture3, scale: scale6
     },
     {
-      src: picture4, scale: scale4
+      src: picture4, scale: scale5
     },
     {
-      src: picture5, scale: scale4
+      src: picture5, scale: scale6
     },
     {
-      src: picture6, scale: scale4
+      src: picture6, scale: scale8
     },
     {
-      src: picture7, scale: scale4
+      src: picture7, scale: scale9
     }
   ]
 
