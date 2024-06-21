@@ -1,7 +1,8 @@
 .gallery{
     height: 175vh;
     overflow: hidden;
-    background: rgb(45, 45, 45);
+    // background: rgb(45, 45, 45);
+    background-color: white;
     .galleryWrapper{
         position: relative;
         top: -12.5vh;
@@ -33,7 +34,7 @@
     }
 }
 .spacer{
-    height: 100vh;
+    height: 50vh;
 }
 .gallery{
     

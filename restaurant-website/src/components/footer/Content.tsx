@@ -1,48 +1,67 @@
+import Link from 'next/link'
 import React from 'react'
 
-export default function Content() {
+function Content() {
   return (
-    <div className='bg-[#4E4E5A] py-8 px-12 h-full w-full flex flex-col justify-between'>
-        <Section1 />
-        <Section2 />
+    <footer className="bg-gray-950 text-yellow-400 py-8">
+<div className="max-w-6xl mx-auto px-4">
+  <div className="flex flex-col md:flex-row justify-between items-center">
+    {/* Logo and Description */}
+    <div className="mb-6 md:mb-0 text-center md:text-left">
+      <h2 className="text-2xl font-bold">Coffee Shop</h2>
+      <p className="text-gray-400">Where every cup is brewed with passion.</p>
     </div>
+
+    {/* Navigation Links */}
+    <div className="mb-6 md:mb-0">
+      {/* <ul className="flex space-x-4">
+        <li>
+          <Link href="/">
+            <span className="cursor-pointer hover:text-yellow-600">Home</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="#about">
+            <span className="cursor-pointer hover:text-yellow-600">About Us</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="#menu">
+            <span className="cursor-pointer hover:text-yellow-600">Menu</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="#contact">
+            <span className="cursor-pointer hover:text-yellow-600">Contact</span>
+          </Link>
+        </li>
+      </ul> */}
+    </div>
+
+    {/* Social Media Links */}
+    {/* <div className="flex space-x-4">
+      <Link href="https://facebook.com">
+        <FaFacebook size={24} className="text-yellow-400 hover:text-yellow-600 cursor-pointer" />
+      </Link>
+      <Link href="https://twitter.com">
+        <FaTwitter size={24} className="text-yellow-400 hover:text-yellow-600 cursor-pointer" />
+      </Link>
+      <Link href="https://instagram.com">
+        <FaInstagram size={24} className="text-yellow-400 hover:text-yellow-600 cursor-pointer" />
+      </Link>
+      <Link href="https://linkedin.com">
+        <FaLinkedin size={24} className="text-yellow-400 hover:text-yellow-600 cursor-pointer" />
+      </Link>
+    </div> */}
+  </div>
+
+  {/* Footer Bottom */}
+  {/* <div className="mt-8 text-center text-gray-400">
+    <p>&copy; {new Date().getFullYear()} Coffee Shop. All rights reserved.</p>
+  </div> */}
+</div>
+</footer>
   )
 }
 
-const Section1 = () => {
-    return (
-        <div>
-            <Nav />
-        </div>
-    )
-}
-
-const Section2 = () => {
-    return (
-        <div className='flex justify-between items-end'>
-            <h1 className='text-[14vw] leading-[0.8] mt-10'>Sticky Footer</h1>
-            <p>©copyright</p>
-        </div>
-    )
-}
-
-const Nav = () => {
-    return (
-        <div className='flex shrink-0 gap-20'>
-            <div className='flex flex-col gap-2'>
-                <h3 className='mb-2 uppercase text-[#ffffff80]'>About</h3>
-                <p>Home</p>
-                <p>Projects</p>
-                <p>Our Mission</p>
-                <p>Contact Us</p>
-            </div>
-            <div className='flex flex-col gap-2'>
-                <h3 className='mb-2 uppercase text-[#ffffff80]'>Education</h3>
-                <p>News</p>
-                <p>Learn</p>
-                <p>Certification</p>
-                <p>Publications</p>
-            </div>
-        </div>
-    )
-}
+export default Content

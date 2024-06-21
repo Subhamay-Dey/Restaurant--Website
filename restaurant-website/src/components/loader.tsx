@@ -64,7 +64,7 @@ function Loader() {
         </Count>
       </Loading>
 
-      <Content className="content animate-bounce">
+      <Content className="content">
         hey
       </Content>
     </AppContainer>

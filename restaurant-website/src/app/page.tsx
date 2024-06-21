@@ -10,6 +10,7 @@ import Loader from '@/components/loader';
 import ZoomParallax from '@/components/zoomParallax-animation/page';
 
 function page() {
+
   return (
     <div className=''>
       <Menu/>
