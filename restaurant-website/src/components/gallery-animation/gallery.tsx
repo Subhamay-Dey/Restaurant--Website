@@ -6,22 +6,22 @@ import Modal from './modal';
 
 const projects = [
   {
-    title: "Coffee 1",
+    title: "Espresso",
     src: "coffee-website-img1.jpg",
     color: "#000000"
   },
   {
-    title: "Coffee 2",
+    title: "Café au lait",
     src: "coffee-website-img2.jpg",
     color: "#8C8C8C"
   },
   {
-    title: "Coffee 3",
+    title: "Cappuccino",
     src: "coffee-website-img3.jpg",
     color: "#EFE8D3"
   },
   {
-    title: "Coffee 4",
+    title: "Caffè macchiato",
     src: "coffee-website-img4.jpg",
     color: "#706D63"
   }
