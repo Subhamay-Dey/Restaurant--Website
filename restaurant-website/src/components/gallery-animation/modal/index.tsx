@@ -1,3 +1,4 @@
+"use client"
 import { useRef, useEffect } from 'react';
 import React from 'react';
 import { motion } from 'framer-motion';
@@ -20,8 +21,6 @@ export default function index({modal, projects} : any) {
   const cursor = useRef(null);
 
   const cursorLabel = useRef(null);
-
-
 
   useEffect( () => {
 

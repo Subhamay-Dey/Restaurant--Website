@@ -12,14 +12,13 @@ import ZoomParallax from '@/components/zoomParallax-animation/page';
 function page() {
   return (
     <div className=''>
-      {/* <Menu/>
+      <Menu/>
       <Loader/>
       <Home/>
-      <MagneticMenu/>
-      <ParallaxScroll/>
-      <Footer/> */}
-
+      {/* <MagneticMenu/> */}
       <ZoomParallax/>
+      <ParallaxScroll/>
+      <Footer/>
     </div>
   )
 }
