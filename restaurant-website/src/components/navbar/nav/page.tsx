@@ -46,7 +46,7 @@ export default function Nav() {
           <Body links={links} selectedLink={selectedLink} setSelectedLink={setSelectedLink}/>
           <Footer />
         </div>
-        <Image src={links[selectedLink.index].src} selectedLink={selectedLink}/>
+        <Image alt="image" src={links[selectedLink.index].src} selectedLink={selectedLink}/>
       </div>
     </motion.div>
   )

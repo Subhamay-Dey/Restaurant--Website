@@ -3,7 +3,7 @@ import { useEffect, useState, useRef } from 'react';
 import styles from './style.module.scss';
 import { motion, useMotionValue, useSpring, transform, animate, spring } from 'framer-motion';
 
-export default function index({stickyElement} : any) {
+export default function Index({stickyElement} : any) {
 
   const [isHovered, setIsHovered] = useState(false);
   const cursor = useRef(null);

@@ -2,7 +2,7 @@
 import styles from './gallery.module.scss'
 import { useState } from 'react';
 import Project from './project';
-import Modal from './modal';
+import Modal from './modal/Index';
 
 const projects = [
   {
