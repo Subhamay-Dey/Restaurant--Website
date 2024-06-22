@@ -8,6 +8,7 @@ import ParallaxScroll from '@/components/parallax-scroll/page';
 import Seacat from '@/components/seacat/page';
 import Loader from '@/components/loader';
 import ZoomParallax from '@/components/zoomParallax-animation/page';
+import Slider from '@/components/slider/page';
 
 function page() {
 
@@ -18,6 +19,7 @@ function page() {
       <Home/>
       {/* <MagneticMenu/> */}
       <ZoomParallax/>
+      <Slider/>
       <ParallaxScroll/>
       <Footer/>
     </div>
