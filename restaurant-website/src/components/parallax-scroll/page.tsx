@@ -7,19 +7,19 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import gallery from '../gallery-animation/gallery';
 import { height } from '../navbar/script';
 
-const images = [
-  "parallax-1.jpg",
-  "parallax-2.jpg",
-  "parallax-3.jpg",
-  "parallax-4.jpg",
-  "parallax-5.jpg",
-  "parallax-6.jpg",
-  "parallax-7.jpg",
-  "parallax-8.jpg",
-  "parallax-9.jpg",
-  "parallax-10.jpg",
-  "parallax-11.jpg",
-  "parallax-12.jpg",
+const images: any[] = [
+  // "parallax-1.jpg",
+  // "parallax-2.jpg",
+  // "parallax-3.jpg",
+  // "parallax-4.jpg",
+  // "parallax-5.jpg",
+  // "parallax-6.jpg",
+  // "parallax-7.jpg",
+  // "parallax-8.jpg",
+  // "parallax-9.jpg",
+  // "parallax-10.jpg",
+  // "parallax-11.jpg",
+  // "parallax-12.jpg",
 ]
 
 export default function ParallaxScroll() {
