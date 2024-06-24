@@ -13,13 +13,13 @@ import Slider from '@/components/slider/page';
 function page() {
 
   return (
-    <div className=''>
+    <div>
       <Menu/>
       <Loader/>
       <Home/>
       {/* <MagneticMenu/> */}
       <ZoomParallax/>
-      <Slider/>
+      {/* <Slider/> */}
       <ParallaxScroll/>
       <Footer/>
     </div>

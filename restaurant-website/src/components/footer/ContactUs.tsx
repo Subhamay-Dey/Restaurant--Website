@@ -24,7 +24,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section id="contact" className="relative py-16 bg-black text-white">
+    <section id="contact" className="relative py-16 bg-white text-black">
       <div className="absolute inset-0">
         {/* <Image src={}  alt="Background" layout="fill" objectFit="cover" className="opacity-20" /> */}
       </div>
@@ -42,7 +42,7 @@ const ContactUs = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-3 py-2 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                  className="w-full px-3 py-2 bg-pink-100 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
                 />
               </div>
               <div>
@@ -53,7 +53,7 @@ const ContactUs = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-3 py-2 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                  className="w-full px-3 py-2 bg-pink-100 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
                 />
               </div>
               <div>
@@ -64,7 +64,7 @@ const ContactUs = () => {
                   value={formData.message}
                   onChange={handleChange}
                   
-                  className="w-full px-3 py-2 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                  className="w-full px-3 py-2 bg-pink-100 text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
                 ></textarea>
               </div>
               <button
