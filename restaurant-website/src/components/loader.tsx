@@ -65,7 +65,6 @@ function Loader() {
       </Loading>
 
       <Content className="content">
-        hey
       </Content>
     </AppContainer>
   );

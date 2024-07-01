@@ -2,13 +2,13 @@
 import React, { useRef } from 'react';
 import styles from "./style.module.scss";
 import Image from 'next/image';
-import picture1 from "../../../../public/images/picture1.jpeg"
+import picture1 from "../../../../public/images/picture1.jpg"
 import picture2 from "../../../../public/images/picture2.jpeg"
 import picture3 from "../../../../public/images/picture3.jpg"
 import picture4 from "../../../../public/images/picture4.jpg"
 import picture5 from "../../../../public/images/picture5.jpg"
 import picture6 from "../../../../public/images/picture6.jpg"
-import picture7 from "../../../../public/images/picture7.jpeg"
+import picture7 from "../../../../public/images/picture7.jpg"
 
 import { useScroll, useTransform, motion } from 'framer-motion';
 

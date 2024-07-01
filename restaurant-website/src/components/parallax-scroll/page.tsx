@@ -8,18 +8,18 @@ import gallery from '../gallery-animation/gallery';
 import { height } from '../navbar/script';
 
 const images: any[] = [
-  // "parallax-1.jpg",
-  // "parallax-2.jpg",
-  // "parallax-3.jpg",
-  // "parallax-4.jpg",
-  // "parallax-5.jpg",
-  // "parallax-6.jpg",
-  // "parallax-7.jpg",
-  // "parallax-8.jpg",
-  // "parallax-9.jpg",
-  // "parallax-10.jpg",
-  // "parallax-11.jpg",
-  // "parallax-12.jpg",
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg",
+  "8.jpg",
+  "9.jpg",
+  "10.jpg",
+  "11.jpg",
+  "12.jpg",
 ]
 
 export default function ParallaxScroll() {
