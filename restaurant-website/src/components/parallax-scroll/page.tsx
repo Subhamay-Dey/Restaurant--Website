@@ -14,7 +14,7 @@ const images: any[] = [
   "4.jpg",
   "5.jpg",
   "6.jpg",
-  "7.jpg",
+  "7.jpeg",
   "8.jpg",
   "9.jpg",
   "10.jpg",
