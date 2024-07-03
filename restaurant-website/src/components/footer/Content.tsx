@@ -1,15 +1,16 @@
 import Link from 'next/link'
-import React from 'react'
+import React from 'react';
+import styles from "./style.module.scss";
 
 function Content() {
   return (
-    <footer className="bg-gray-950 text-yellow-400 py-8">
+    <footer className={styles.footer}>
 <div className="max-w-6xl mx-auto px-4">
   <div className="flex flex-col md:flex-row justify-between items-center">
     {/* Logo and Description */}
-    <div className="mb-6 md:mb-0 text-center md:text-left">
-      <h2 className="text-2xl font-bold">Coffee Shop</h2>
-      <p className="text-gray-400">Where every cup is brewed with passion.</p>
+    <div className="mb-6 md:mb-0 text-center md:text-left block justify-center items-center gap-4">
+      <h2 className="text-2xl font-bold pt-4">Coffee Shop</h2>
+      <p className="text-gray-400 flex justify-center items-center pt-2">Where every cup is brewed with passion.</p>
     </div>
 
     {/* Navigation Links */}
